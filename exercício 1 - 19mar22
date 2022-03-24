@@ -1,0 +1,15 @@
+const int ledVm = 3;
+
+void setup()
+{
+    pinMode(ledVm, OUTPUT);
+  }
+
+void loop()
+{
+  digitalWrite(ledVm, HIGH);
+  delay(500);
+  digitalWrite(ledVm, LOW);
+  delay(500);
+  
+}
